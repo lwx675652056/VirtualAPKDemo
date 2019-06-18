@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     Intent intent = new Intent();
                     intent.setClassName("com.lwx.plugin_login", "com.lwx.plugin_login.LoginActivity");
+                    intent.putExtra("name","hehe");
+                    intent.putExtra("pwd","123456");
                     startActivity(intent);
                 }
             }

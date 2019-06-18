@@ -8,10 +8,12 @@
     tools:context="com.lwx.plugin_login.LoginActivity">
 
     <EditText
+        android:id="@+id/edtName_loginActivity_plugin"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
     <EditText
+        android:id="@+id/edtPwd_loginActivity_plugin"
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 
